@@ -1,0 +1,20 @@
+name: shipa-46
+
+components:
+  #shipa-image: gcr.io/shipa-1000/shipad:latest
+  #dashboard-image: shipasoftware/dashboard:latest
+  
+  install-dashboard: true
+  admin-email: admin@shipa.io
+  admin-password: bingobingo
+
+driver:
+  name: google
+  private-ip-interface: ens4
+  options:
+
+    # PUT you project here
+    google-project: shipa-1000
+    google-tags: shipa
+    google-machine-type: n1-standard-1
+    google-disk-size: 100
